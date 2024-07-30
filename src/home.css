@@ -1,0 +1,130 @@
+.home-content h1 {
+    animation: slideRight 1s ease forwards;
+  }
+  
+  .home-content h3 {
+    animation: slideLeft 2s ease forwards;
+  }
+  
+  .navbar a:hover {
+    color: #0ef;
+  }
+  
+  .home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+  }
+  
+  .home-content {
+    max-width: 600px;
+  }
+  
+  .home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .home-content h3:nth-of-type(2) {
+    margin-bottom: 30px;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .5s;
+  }
+  
+  
+  .home-content h1 {
+    font-size: 56px;
+    font-weight: 700px;
+    margin: -3px 0;
+  }
+  
+  
+  .home-content p {
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 10px;
+  }
+  
+  .home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #666;
+    text-decoration: none;
+    transition: color 0.5s, box-shadow 0.5s;
+    margin: 30px 15px 30px 0;
+    animation: slideLeft 1s ease forwards;
+  }
+  
+  .home-sci a:hover {
+  
+    color: #0ef;
+    background: #333;
+    box-shadow: 0 0 15px #0ef;
+  }
+  
+  .btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 0.5s;
+    box-shadow: 0 0 5px #0ef,
+        0 0 25px #0ef
+  }
+  
+  
+  .btn-box:hover {
+    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef, 0 0 50px #0ef,
+        0 0 100px #0ef, 0 0 200px #0ef
+  }
+
+  .home-main-img{
+    height: 400px;
+    width: 400px;
+    border-top: 2px solid #b9ad09;
+    border-left: 2px solid rgb(240, 175, 53);
+    border-right: 2px solid rgb(244, 70, 70);
+    border-bottom:2px solid brown;
+    border-radius: 50%;
+    transition: .5s all ease-in;
+    overflow: hidden;
+    filter: grayscale(10);
+  }
+  .main-img{
+    height: 400px;
+    width: 400px;
+  }
+  .home-main-img:hover{
+
+    box-shadow: 0 0 5px blue, 0 0 20px rgb(48, 48, 239), 0 0 40px rgb(80, 80, 217),
+        0 0 80px #0ef, 0 0 150px#0ef;
+
+        filter: grayscale(0);
+
+        .main-img{
+          filter: drop-shadow(0px 0px 20px yellow);
+        }
+        
+        
+  }
